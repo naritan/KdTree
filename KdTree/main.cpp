@@ -19,8 +19,8 @@ int main() {
     glm::vec3 target(90.2f, -11.2f, 14.9f);
     auto result = tree.Search(target, 2.0f);
 
+    std::cout << "target" << std::endl;
     std::cout << "x: " << target.x << " y: " << target.y << " z: " << target.z << std::endl;
-    std::cout << "‚Ì‹ß‚­‚É‚ ‚é“_" << std::endl;
     for (auto r : result) {
         std::cout << "x: " << r.x << " y: " << r.y << " z: " << r.z << std::endl;
     }
