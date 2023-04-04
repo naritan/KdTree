@@ -21,7 +21,7 @@ int main() {
 
     std::cout << "target" << std::endl;
     std::cout << "x: " << target.x << " y: " << target.y << " z: " << target.z << std::endl;
-    for (auto r : result) {
+    for (auto& r : result) {
         std::cout << "x: " << r.x << " y: " << r.y << " z: " << r.z << std::endl;
     }
 
